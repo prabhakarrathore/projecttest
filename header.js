@@ -32,10 +32,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
    <header class="site-header">
             <div class="container header-container">
-                <a href="index.html" class="logo">
-                    DASHMESH
-                </a>
-
+               <img src="./dashmeshskill.png" alt="Logo" class="logo" />
                 <nav class="main-nav">
                     <a href="index.html" class="nav-link">Home</a>
                     <a href="about.html" class="nav-link">About Us</a>
